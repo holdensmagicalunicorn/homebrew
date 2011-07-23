@@ -41,8 +41,8 @@ else
   HOMEBREW_REPOSITORY+"Cellar"
 end
 
-MACOS_FULL_VERSION = `/usr/bin/sw_vers -productVersion`.chomp
-MACOS_VERSION = /(10\.\d+)(\.\d+)?/.match(MACOS_FULL_VERSION).captures.first.to_f
+MACOS_FULL_VERSION = "" #`/usr/bin/sw_vers -productVersion`.chomp
+MACOS_VERSION = 10.6 #/(10\.\d+)(\.\d+)?/.match(MACOS_FULL_VERSION).captures.first.to_f
 
 HOMEBREW_USER_AGENT = "Homebrew #{HOMEBREW_VERSION} (Ruby #{RUBY_VERSION}-#{RUBY_PATCHLEVEL}; Mac OS X #{MACOS_FULL_VERSION})"
 
