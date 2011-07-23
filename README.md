@@ -1,54 +1,41 @@
-Homebrew
-========
-Features and usage are [summarized on the homepage][homepage].
+Ubuntu Homebrew
+==============
+See the original [homepage] for more information on Homebrew.
 
+Why are you doin this?
+=====================
 
-Quick Install to /usr/local
----------------------------
-[This script][gist] will prompt for confirmation before it does anything:
+Because I install a lot from source straight from github in Ubuntu. Obviously Erlang is one of those and is thus the first formula I got working.
 
-    /usr/bin/ruby -e "$(curl -fsSL https://raw.github.com/gist/323731)"
+Also, to see if the idea of mixing a source based package manager along side apt doesn't screw everything up.
 
-Afterwards, [install Xcode][xcode].
+And becuase I can!
 
+Ubuntu
+------
+$ sudo apt-get install build-essential libncurses5-dev openssl libssl-dev curl
 
-Umm… I thought I could install it anywhere?
--------------------------------------------
-Indeed, you can. Refer to our [complete installation instructions][install].
+Modified One-Liner from main Homebrew README
+--------------------------------------------
 
-
-Dude! Just give me a one-liner!
--------------------------------
-Okay then, but please note this installs Homebrew as root and
-[we recommend against that][sudo].
-
-    curl -LsSf https://github.com/mxcl/homebrew/tarball/master | sudo /usr/bin/tar xvz -C/usr/local --strip 1
+curl -LsSf https://github.com/tsloughter/homebrew/tarball/master | sudo /usr/bin/tar -zxvf -C/usr/local --strip 1
 
 
 But what packages are available?
 --------------------------------
-Before installing you can
-[browse the Formula folder on GitHub][browse-formulae].
 
-After installing, you can use `brew search` to find packages or `brew server`
-to browse packages off of a local web server.
+* [Erlang][erlang]
 
+Who the hell are you?
+=====================
+I'm [Tristan Sloughter][tsloughter] and have too much time on my hands.
 
-More Documentation
+Who wrote Homebrew?
 ==================
-The [wiki][] is your friend.
+That would be the great [Max Howell][mxcl] and he's a splendid chap.
 
-
-Who Are You?
-============
-I'm [Max Howell][mxcl] and I'm a splendid chap.
-
-
+[tsloughter]:http://blog.erlware.com
 [homepage]:http://mxcl.github.com/homebrew
-[gist]:http://gist.github.com/323731
-[xcode]:http://developer.apple.com/technologies/xcode.html
-[install]:http://wiki.github.com/mxcl/homebrew/installation
-[sudo]:http://wiki.github.com/mxcl/homebrew/installation#sudo
-[wiki]:http://wiki.github.com/mxcl/homebrew
 [mxcl]:http://twitter.com/mxcl
-[browse-formulae]:http://github.com/mxcl/homebrew/tree/master/Library/Formula/
+[browse-formulae]:http://github.com/tsloughter/homebrew/tree/master/Library/Formula/
+[erlang]:http://www.erlang.org
