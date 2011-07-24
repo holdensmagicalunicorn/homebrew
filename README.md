@@ -5,7 +5,7 @@ See the original [homepage] for more information on Homebrew.
 Why are you doin this?
 =====================
 
-Because I install a lot from source straight from github in Ubuntu. Obviously Erlang is one of those and is thus the first formula I got working.
+Because I install a lot from source straight from github in Ubuntu. Erlang is one of those and is thus the first formula I got working.
 
 Also, to see if the idea of mixing a source based package manager along side apt doesn't screw everything up.
 
@@ -30,6 +30,7 @@ But what packages are available?
 --------------------------------
 
 * [Erlang][erlang]
+* [Rebar][rebar]
 
 Who the hell are you?
 =====================
@@ -44,3 +45,4 @@ That would be the great [Max Howell][mxcl] and he's a splendid chap.
 [mxcl]:http://twitter.com/mxcl
 [browse-formulae]:http://github.com/tsloughter/homebrew/tree/master/Library/Formula/
 [erlang]:http://www.erlang.org
+[rebar]: https://github.com/basho/rebar/wiki
