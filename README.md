@@ -31,6 +31,7 @@ But what packages are available?
 
 * [Erlang][erlang]
 * [Rebar][rebar]
+* [Agner][agner]
 
 Who the hell are you?
 =====================
@@ -46,3 +47,4 @@ That would be the great [Max Howell][mxcl] and he's a splendid chap.
 [browse-formulae]:http://github.com/tsloughter/homebrew/tree/master/Library/Formula/
 [erlang]:http://www.erlang.org
 [rebar]: https://github.com/basho/rebar/wiki
+[agner]: http://erlagner.org/
