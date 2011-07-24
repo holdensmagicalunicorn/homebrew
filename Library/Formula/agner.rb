@@ -5,7 +5,6 @@ class Agner < Formula
   homepage 'http://erlagner.org/'
 
   depends_on 'erlang'
-  depends_on 'rebar'
 
   def install
     system "make"
