@@ -32,6 +32,8 @@ But what packages are available?
 * [Erlang][erlang]
 * [Rebar][rebar]
 * [Agner][agner]
+* PCRE
+* Nginx
 
 Who the hell are you?
 =====================
