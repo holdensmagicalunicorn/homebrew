@@ -9,7 +9,7 @@ Because I install a lot from source straight from github in Ubuntu. Erlang is on
 
 Also, to see if the idea of mixing a source based package manager along side apt doesn't screw everything up.
 
-And becuase I can!
+And because I can!
 
 WARNING
 =======
